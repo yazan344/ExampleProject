@@ -20,6 +20,7 @@
 }
 
 .content {
+  margin: 5px;
   float: left;
   width: 650px;
   height: 500px;
@@ -27,6 +28,7 @@
   padding: 20px;
 }
 .article-image {
+  margin: 5px;
   float: left;
   width: 300px;
   height: 200px;
@@ -41,6 +43,7 @@ p {
   background-color: #D6E9FE;    /* Light blue */
 }
 .page {
+  margin: 5px;
   width: 900px;
   margin: 0 auto;
   border: 1px solid red;
@@ -50,6 +53,20 @@ p {
 .container {
   overflow: hidden;
   background-color: #EAEDF0;
+}
+.column-1{
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #6d00c1;
+}
+.column-2{
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #f24dde;
 }
 .column {
   float: left;
@@ -70,7 +87,16 @@ p {
   border-radius: 40px;
   background-color: #D6E9FE;
 }
-
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+form button {
+  width: 100px;
+  margin: 0 auto;
+}
 .username {
   margin-top: 30px;
 }
