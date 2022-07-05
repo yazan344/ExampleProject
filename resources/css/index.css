@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 .menu {
+  margin: 5px;
   height: 100px;
   background-color: #B2D6FF;    /* Medium blue */
 }
-
+.pt-5{
+  padding-top:5px;
+}
 .Item {
+  margin:5px;
   float: left;
   width: 200px;
   height: 500px;
